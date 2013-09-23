@@ -315,4 +315,4 @@ else
 #   Turbolinks.pagesCached()
 #   Turbolinks.pagesCached(20)
 #   Turbolinks.supported
-@Turbolinks = { visit, pagesCached, supported: browserSupportsTurbolinks }
+@Turbolinks = { visit, rememberReferer, cacheCurrentPage, supported: browserSupportsTurbolinks }
